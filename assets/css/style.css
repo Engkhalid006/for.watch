@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #ff0000;
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.progress-bar {
+    height: 5px;
+    background: #333;
+}
+
+.progress {
+    height: 100%;
+    background: var(--primary-color);
+}
